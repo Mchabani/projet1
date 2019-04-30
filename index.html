@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+.test-1{
+
+    display: flex;
+}
+
+.test-2{
+
+display: flex;
+flex-direction: row-reverse;
+
+}
+
+.test-3{
+
+display: flex;
+flex-direction: column;
+
+}
+
+.test-4{
+
+display: flex;
+flex-direction: column-reverse;
+
+}
+
+.test-5{
+
+display: flex;
+flex-wrap: nowrap;
+width: 100px;
+
+}
+
+.test-6{
+
+display: flex;
+flex-wrap: wrap;
+width: 200px;
+
+}
+
+.test-7{
+
+display: flex;
+align-items: center;
+
+
+}
+
+.test-7 li:nth-child(odd){
+
+    line-height: 4em;
+}
+
+.test-8{
+
+display: flex;
+align-items: flex-start;
+
+
+}
+
+.test-8 li:nth-child(odd){
+
+line-height: 4em;
+}
+
+.test-9{
+
+display: flex;
+align-items: flex-end;
+
+
+}
+
+.test-9 li:nth-child(odd){
+
+line-height: 4em;
+}
+
+
+
+
+.test-10{
+
+display: flex;
+justify-content: center;
+
+
+}
+
+.test-11{
+
+display: flex;
+justify-content: flex-start;
+
+
+}
+
+.test-12{
+
+display: flex;
+justify-content: flex-end;
+
+
+}
+
+.test-13{
+
+display: flex;
+justify-content: space-between;
+
+
+}
+
+.test-14{
+
+display: flex;
+justify-content: space-around;
+
+
+}
+
+.test-15{
+
+display: flex;
+
+}
+
+.test-15 li:nth-child(1){
+
+    order:5;
+}
+
+.test-15 li:nth-child(2){
+
+order:3;
+}
+
+
+
+ul{
+
+    margin: 2em 0;
+    padding: 0;
+    list-style-type:none;
+    border: 1px solid black;
+}
+
+li{
+    padding: 1em;
+
+}
+
+li:nth-child(1){
+
+    background-color: red;
+}
+
+li:nth-child(2){
+
+    background-color: blue; 
+}
+
+li:nth-child(3){
+
+    background-color: purple;
+}
+
+li:nth-child(4){
+
+    background-color: silver;
+}
+
+li:nth-child(5){
+
+    background-color: gold;
+}
+
+li:nth-child(6){
+
+    background-color: yellow;
+}
+
+
+</style>
+
+</head>
+<body>
+    <h2>Flex</h2>
+<ul class="test-1">
+    <li>yo</li>
+    <li>Lorem</li>
+    <li>ipsum</li>
+    <li>dolor</li>
+    <li>sit</li>
+    <li>amet</li>
+
+
+
+
+</ul>
+
+<h2>flex-direction: row-reverse</h2>
+
+<ul class="test-2">
+        <li>yo</li>
+        <li>Lorem</li>
+        <li>ipsum</li>
+        <li>dolor</li>
+        <li>sit</li>
+        <li>amet</li>
+    
+    
+    
+    
+    </ul>
+
+
+
+<h2>flex-direction: column</h2>
+<ul class="test-3">
+        <li>yo</li>
+        <li>Lorem</li>
+        <li>ipsum</li>
+        <li>dolor</li>
+        <li>sit</li>
+        <li>amet</li>
+    
+    
+    
+    
+    </ul>
+    
+    <h2>flex-direction: column-reverse</h2>
+<ul class="test-4">
+        <li>yo</li>
+        <li>Lorem</li>
+        <li>ipsum</li>
+        <li>dolor</li>
+        <li>sit</li>
+        <li>amet</li>
+    
+    
+    
+    
+    </ul>
+
+
+    <h2>flex-wrap: nowrap</h2>
+    <ul class="test-5">
+            <li>yo</li>
+            <li>Lorem</li>
+            <li>ipsum</li>
+            <li>dolor</li>
+            <li>sit</li>
+            <li>amet</li>
+        
+        
+        
+        
+        </ul>
+
+        <h2>flex-wrap: wrap</h2>
+        <ul class="test-6">
+                <li>yo</li>
+                <li>Lorem</li>
+                <li>ipsum</li>
+                <li>dolor</li>
+                <li>sit</li>
+                <li>amet</li>
+            
+            
+            
+            
+            </ul>
+    
+            <h2>align-items: center</h2>
+        <ul class="test-7">
+                <li>yo</li>
+                <li>Lorem</li>
+                <li>ipsum</li>
+                <li>dolor</li>
+                <li>sit</li>
+                <li>amet</li>
+            
+            
+            
+            
+            </ul>
+
+            <h2>align-items: flex-start</h2>
+        <ul class="test-8">
+                <li>yo</li>
+                <li>Lorem</li>
+                <li>ipsum</li>
+                <li>dolor</li>
+                <li>sit</li>
+                <li>amet</li>
+            
+            
+            
+            
+            </ul>
+
+            <h2>align-items: flex-end</h2>
+        <ul class="test-9">
+                <li>yo</li>
+                <li>Lorem</li>
+                <li>ipsum</li>
+                <li>dolor</li>
+                <li>sit</li>
+                <li>amet</li>
+            
+            
+            
+            
+            </ul>
+
+
+            <h2>justify-content: center;
+            </h2>
+        <ul class="test-10">
+                <li>yo</li>
+                <li>Lorem</li>
+                <li>ipsum</li>
+                <li>dolor</li>
+                <li>sit</li>
+                <li>amet</li>
+            
+            
+            
+            
+            </ul>
+
+            <h2>justify-content: flex-start;
+            </h2>
+        <ul class="test-11">
+                <li>yo</li>
+                <li>Lorem</li>
+                <li>ipsum</li>
+                <li>dolor</li>
+                <li>sit</li>
+                <li>amet</li>
+            
+            
+            
+            
+            </ul>
+
+            <h2>justify-content: flex-end;
+            </h2>
+        <ul class="test-12">
+                <li>yo</li>
+                <li>Lorem</li>
+                <li>ipsum</li>
+                <li>dolor</li>
+                <li>sit</li>
+                <li>amet</li>
+            
+            
+            
+            
+            </ul>
+
+            <h2>justify-content: space-between;
+            </h2>
+        <ul class="test-13">
+                <li>yo</li>
+                <li>Lorem</li>
+                <li>ipsum</li>
+                <li>dolor</li>
+                <li>sit</li>
+                <li>amet</li>
+            
+            
+                
+            
+            </ul>
+<h2>justify-content: space-around;</h2>
+            <ul class="test-14">
+                <li>yo</li>
+                <li>Lorem</li>
+                <li>ipsum</li>
+                <li>dolor</li>
+                <li>sit</li>
+                <li>amet</li>
+            
+            
+                
+            
+            </ul>
+
+            <h2>changer l'ordre dans le tableau;</h2>
+            <ul class="test-15">
+                <li>yo</li>
+                <li>Lorem</li>
+                <li>ipsum</li>
+                <li>dolor</li>
+                <li>sit</li>
+                <li>amet</li>
+            
+            
+                
+            
+            </ul>
+
+
+</body>
+</html>
